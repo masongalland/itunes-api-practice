@@ -1,0 +1,84 @@
+header {
+	height: 80px;
+	background: gray;
+	width: 100%;
+	padding: 15px;
+}
+.logo {
+	height: 80%;
+}
+#search_bar {
+	margin-left: 10%;
+	border-radius: 18px;
+	border: none;
+	height: 30px;
+	padding: 0 10px;
+	font-size: 18px;
+	width: 30%;
+}
+#search_bar:focus {
+	outline: none;
+}
+
+#search_btn {
+	border: none;
+	border-radius: 14px;
+	font-size: 18px;
+	color: #fff;
+	background: #20beeb;
+	margin-left: 12px;
+	padding: 4px 8px;
+	cursor: pointer;
+	font-family: 'Nunito';
+}
+#search_btn:hover {
+	color: #fff;
+	background: #60d0ef;
+}
+
+.result_container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	align-items: center;
+	height: 70px;
+	border-bottom: 1px solid gray;
+	padding: 0 30px;
+}
+
+.price {
+	justify-self: end;
+	padding-right: 45px;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin-top: 40px;
+}
+
+h1,
+h2 {
+	font-family: 'Nunito';
+}
+
+audio {
+	width: 84%;
+}
+
+.headings {
+	height: 45px;
+	background: #e4e5e6;
+	align-items: center;
+	border-bottom: 2px solid gray;
+	margin-bottom: 10px;
+}
+.headings h2 {
+	font-weight: bold;
+	padding-left: 5px;
+}
+
+a.price {
+	text-decoration: none;
+	cursor: pointer;
+	color: #13adee;
+}
